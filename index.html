@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Créez votre site web — Samuel Rios Dev</title>
+  <meta name="description" content="Composez votre futur site web en 1 minute : rendez-vous, agenda, rappels, paiements… Création de sites web à Morteau, Valdahon, Besançon, Pontarlier et alentours." />
+  <meta name="theme-color" content="#1E2D45" />
+  <meta property="og:title" content="Et si votre entreprise travaillait… même pendant que vous dormez ?" />
+  <meta property="og:description" content="Composez votre site en 1 minute. À partir de 200 €. Samuel Rios Dev — Création de sites web." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='6' y='6' width='52' height='52' rx='12' fill='%23E2A63D'/%3E%3Crect x='16' y='18' width='14' height='12' rx='3' fill='%231E2D45'/%3E%3Crect x='34' y='18' width='14' height='12' rx='3' fill='%23E2644F'/%3E%3Crect x='16' y='34' width='32' height='12' rx='3' fill='%232A837C'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-bg="navy">
+  <div class="app">
+    <header class="topbar">
+      <button class="back" id="back" aria-label="Retour" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <div class="progress" id="progress" aria-hidden="true"></div>
+      <span class="brand-chip">Samuel Rios <b>Dev</b></span>
+    </header>
+
+    <main id="stage" class="stage" aria-live="polite"></main>
+
+    <footer class="foot">
+      <span>Création de sites web · Doubs &amp; alentours</span>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
